@@ -1,0 +1,294 @@
+{
+  "userInfo": {
+    "name": {
+      "label": "Nama",
+      "placeholder": "Masukkan nama Anda"
+    },
+    "class": {
+      "label": "Kelas",
+      "placeholder": "Masukkan kelas Anda"
+    }
+  },
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "Diketahui suku ke-4 dan suku ke-9 dari suatu barisan aritmetika berturut-turut adalah 110 dan 150. Suku ke-30 barisan tersebut adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "308",
+          "rationale": "Perhitungan ini mungkin keliru saat menentukan suku pertama atau saat mengalikan beda dengan (n-1).",
+          "isCorrect": false
+        },
+        {
+          "text": "318",
+          "rationale": "Dengan mencari beda (b=8) dan suku pertama (a=86), kemudian dimasukkan ke rumus Un = a + (n-1)b, didapatkan U30 = 86 + (29)(8) = 318.",
+          "isCorrect": true
+        },
+        {
+          "text": "326",
+          "rationale": "Kesalahan bisa terjadi jika beda yang ditemukan tidak tepat, yang akan memengaruhi perhitungan suku pertama dan suku ke-30.",
+          "isCorrect": false
+        },
+        {
+          "text": "334",
+          "rationale": "Hasil ini akan didapat jika terjadi kesalahan hitung pada langkah akhir, yaitu penjumlahan suku pertama dengan hasil perkalian beda.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cari nilai beda (b) terlebih dahulu dengan metode eliminasi dari dua suku yang diketahui."
+    },
+    {
+      "questionNumber": 2,
+      "question": "Rumus suku ke-n dari barisan 5, -2, -9, -16, ... adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "$U_n = 5n - 12$",
+          "rationale": "Rumus ini tidak tepat karena tanda pada beda (selisih antar suku) tidak sesuai dengan pola barisan.",
+          "isCorrect": false
+        },
+        {
+          "text": "$U_n = 12 - 7n$",
+          "rationale": "Suku pertama (a) adalah 5 dan bedanya (b) adalah -7. Maka $U_n = a + (n-1)b = 5 + (n-1)(-7) = 5 - 7n + 7 = 12 - 7n$.",
+          "isCorrect": true
+        },
+        {
+          "text": "$U_n = 7n + 5$",
+          "rationale": "Rumus ini akan benar jika barisan tersebut merupakan barisan naik, padahal barisan ini adalah barisan turun.",
+          "isCorrect": false
+        },
+        {
+          "text": "$U_n = 12n + 7$",
+          "rationale": "Struktur rumus ini tidak sesuai dengan suku pertama dan beda dari barisan yang diberikan.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tentukan suku pertama (a) dan beda (b), lalu substitusikan ke dalam rumus umum suku ke-n, $U_n = a + (n-1)b$."
+    },
+    {
+      "questionNumber": 3,
+      "question": "Diketahui suatu deret aritmetika dengan suku ke-3 adalah 9 dan suku ke-6 adalah 18. Jumlah 10 suku pertama deret tersebut adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "155",
+          "rationale": "Periksa kembali perhitungan jumlah deret ($S_n$). Kesalahan kecil pada penjumlahan atau perkalian bisa menghasilkan jawaban ini.",
+          "isCorrect": false
+        },
+        {
+          "text": "160",
+          "rationale": "Nilai ini mungkin didapat jika suku pertama (a) atau beda (b) yang ditemukan kurang tepat.",
+          "isCorrect": false
+        },
+        {
+          "text": "165",
+          "rationale": "Dari data, didapat a=3 dan b=3. Maka $S_{10} = \\frac{10}{2}(2(3) + (10-1)3) = 5(6+27) = 5(33) = 165$.",
+          "isCorrect": true
+        },
+        {
+          "text": "170",
+          "rationale": "Pastikan rumus jumlah deret aritmetika yang digunakan sudah benar. Rumus yang salah akan menghasilkan jawaban yang keliru.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Cari nilai 'a' dan 'b' terlebih dahulu, kemudian gunakan rumus jumlah n suku pertama, $S_n = \\frac{n}{2}(2a + (n-1)b)$."
+    },
+    {
+      "questionNumber": 4,
+      "question": "Dalam sebuah gedung pertunjukan, banyak kursi pada baris pertama adalah 15, baris kedua 18, baris ketiga 21, dan seterusnya dengan pola yang sama. Banyak kursi pada baris ke-20 adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "68",
+          "rationale": "Hasil ini mungkin didapat jika terjadi kesalahan dalam menghitung (n-1) pada rumus suku ke-n.",
+          "isCorrect": false
+        },
+        {
+          "text": "72",
+          "rationale": "Barisan ini memiliki a=15 dan b=3. Maka, suku ke-20 adalah $U_{20} = 15 + (20-1)3 = 15 + 19 \\times 3 = 15 + 57 = 72$.",
+          "isCorrect": true
+        },
+        {
+          "text": "75",
+          "rationale": "Angka ini mungkin muncul jika salah mengidentifikasi suku pertama atau beda dari pola barisan kursi.",
+          "isCorrect": false
+        },
+        {
+          "text": "78",
+          "rationale": "Periksa kembali perkalian antara beda dan (n-1). Sedikit kekeliruan dapat menyebabkan hasil akhir yang berbeda.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Masalah ini mengikuti pola barisan aritmetika. Tentukan suku pertama (a) dan bedanya (b), lalu cari suku ke-20."
+    },
+    {
+      "questionNumber": 5,
+      "question": "Suatu barisan aritmetika memiliki suku pertama 6 dan beda 4. Jika suku terakhirnya adalah 82, maka banyaknya suku dalam barisan tersebut adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "18",
+          "rationale": "Periksa kembali langkah-langkah aljabar untuk menyelesaikan 'n'. Mungkin ada kesalahan saat memindahkan suku.",
+          "isCorrect": false
+        },
+        {
+          "text": "19",
+          "rationale": "Jawaban ini sangat dekat. Kemungkinan ada kesalahan saat menyelesaikan persamaan, misalnya lupa menambahkan 1 di akhir.",
+          "isCorrect": false
+        },
+        {
+          "text": "20",
+          "rationale": "Dengan rumus $U_n = a + (n-1)b$, kita dapatkan $82 = 6 + (n-1)4$. Ini disederhanakan menjadi $76 = (n-1)4$, lalu $19 = n-1$, sehingga $n=20$.",
+          "isCorrect": true
+        },
+        {
+          "text": "21",
+          "rationale": "Hasil ini bisa terjadi jika ada kekeliruan dalam operasi pengurangan atau pembagian saat mencari nilai n.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Substitusikan nilai suku pertama (a), beda (b), dan suku terakhir (Un) ke dalam rumus umum suku ke-n untuk menemukan nilai 'n'."
+    },
+    {
+      "questionNumber": 6,
+      "question": "Jumlah bilangan kelipatan 3 antara 100 dan 200 adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "4850",
+          "rationale": "Hasil ini bisa didapat jika suku pertama atau suku terakhir yang diidentifikasi kurang tepat.",
+          "isCorrect": false
+        },
+        {
+          "text": "4950",
+          "rationale": "Suku pertama (a) adalah 102, suku terakhir ($U_n$) adalah 198, dan beda (b) adalah 3. Terdapat 33 suku. Jumlahnya $S_{33} = \\frac{33}{2}(102+198) = 4950$.",
+          "isCorrect": true
+        },
+        {
+          "text": "5050",
+          "rationale": "Pastikan banyaknya suku (n) sudah dihitung dengan benar sebelum menghitung jumlah total deret.",
+          "isCorrect": false
+        },
+        {
+          "text": "5150",
+          "rationale": "Periksa kembali perhitungan akhir. Kesalahan dalam perkalian atau pembagian dapat menghasilkan jawaban ini.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tentukan bilangan kelipatan 3 pertama setelah 100 dan terakhir sebelum 200. Gunakan informasi tersebut untuk mencari banyaknya suku, lalu hitung jumlahnya."
+    },
+    {
+      "questionNumber": 7,
+      "question": "Tiga bilangan membentuk barisan aritmetika. Jika jumlah ketiga bilangan itu 36 dan hasil kalinya 1.536, maka bilangan terbesarnya adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "12",
+          "rationale": "Angka 12 adalah suku tengah dari barisan tersebut, bukan bilangan yang terbesar.",
+          "isCorrect": false
+        },
+        {
+          "text": "16",
+          "rationale": "Dengan memisalkan bilangan sebagai (a-b), a, (a+b), didapat a=12 dan b=4. Sehingga bilangannya adalah 8, 12, dan 16. Yang terbesar adalah 16.",
+          "isCorrect": true
+        },
+        {
+          "text": "18",
+          "rationale": "Jika 18 adalah bilangan terbesar, maka jumlah ketiga bilangan akan lebih dari 36.",
+          "isCorrect": false
+        },
+        {
+          "text": "20",
+          "rationale": "Hasil kali dari tiga bilangan yang berpusat di sekitar angka ini akan jauh lebih besar dari 1.536.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Untuk mempermudah, misalkan ketiga bilangan tersebut sebagai (a-b), a, dan (a+b). Gunakan informasi jumlah untuk menemukan nilai 'a' terlebih dahulu."
+    },
+    {
+      "questionNumber": 8,
+      "question": "Diketahui barisan aritmetika dengan $U_5 = 17$ dan $U_{10} = 32$. Suku ke-20 adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "52",
+          "rationale": "Periksa kembali nilai suku pertama (a) yang didapat setelah menemukan beda (b).",
+          "isCorrect": false
+        },
+        {
+          "text": "57",
+          "rationale": "Nilai ini adalah hasil dari 19 kali beda. Ingatlah untuk menambahkan suku pertama.",
+          "isCorrect": false
+        },
+        {
+          "text": "62",
+          "rationale": "Dengan eliminasi, didapat b=3 dan a=5. Maka, $U_{20} = a + (20-1)b = 5 + 19(3) = 5 + 57 = 62$.",
+          "isCorrect": true
+        },
+        {
+          "text": "67",
+          "rationale": "Hasil ini mungkin didapat jika terjadi kesalahan penjumlahan pada langkah terakhir.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Gunakan metode eliminasi atau substitusi dari dua persamaan suku ke-n untuk menemukan nilai 'a' dan 'b'."
+    },
+    {
+      "questionNumber": 9,
+      "question": "Seorang pekerja menabung dengan cara teratur. Pada bulan pertama ia menabung Rp20.000, bulan kedua Rp25.000, bulan ketiga Rp30.000, dan seterusnya. Jumlah tabungan pekerja tersebut selama satu tahun adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "Rp550.000",
+          "rationale": "Periksa kembali perhitungan pada rumus jumlah deret, terutama pada bagian (n-1)b.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rp570.000",
+          "rationale": "Ini adalah deret aritmetika dengan a=20.000, b=5.000, n=12. Maka $S_{12} = \\frac{12}{2}(2(20.000) + 11(5.000)) = 6(40.000 + 55.000) = 6(95.000) = 570.000$.",
+          "isCorrect": true
+        },
+        {
+          "text": "Rp600.000",
+          "rationale": "Jumlah ini akan tercapai jika tabungan awalnya lebih besar atau kenaikannya lebih tinggi dari yang disebutkan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Rp620.000",
+          "rationale": "Hasil ini menunjukkan adanya kemungkinan kesalahan dalam perkalian atau penjumlahan saat menggunakan rumus $S_n$.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Ingat bahwa satu tahun terdiri dari 12 bulan. Gunakan ini sebagai nilai 'n' dalam rumus jumlah deret aritmetika."
+    },
+    {
+      "questionNumber": 10,
+      "question": "Dari suatu deret aritmetika, diketahui $S_4 = 44$ dan $S_8 = 152$. Suku pertama deret tersebut adalah...",
+      "imageUrl": "",
+      "answerOptions": [
+        {
+          "text": "3",
+          "rationale": "Nilai ini mungkin didapat jika terjadi kesalahan dalam menyelesaikan sistem persamaan linear dua variabel.",
+          "isCorrect": false
+        },
+        {
+          "text": "4",
+          "rationale": "Angka 4 adalah nilai beda (b) dari deret ini, bukan suku pertamanya.",
+          "isCorrect": false
+        },
+        {
+          "text": "5",
+          "rationale": "Dengan membuat 2 persamaan dari rumus $S_n$ dan menyelesaikannya, didapat $2a+3b=22$ dan $2a+7b=38$. Eliminasi menghasilkan b=4 dan substitusi menghasilkan a=5.",
+          "isCorrect": true
+        },
+        {
+          "text": "6",
+          "rationale": "Jika suku pertamanya 6, maka nilai $S_4$ dan $S_8$ tidak akan sesuai dengan yang diketahui di soal.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Buatlah dua persamaan linear menggunakan rumus $S_n$ untuk $n=4$ dan $n=8$. Selesaikan sistem persamaan tersebut untuk menemukan 'a'."
+    }
+  ]
+}
